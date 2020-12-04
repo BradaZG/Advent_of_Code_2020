@@ -2,8 +2,8 @@
 
 const fs = require('fs');
 
-var input = fs.readFileSync('./day1.txt');
-var inputArr = input.toString().split('\r\n');
+const input = fs.readFileSync('./day1.txt');
+const inputArr = input.toString().split('\r\n');
 
 const findEtriesAndMultiply2 = (arr) => {
   let num1 = 0;
