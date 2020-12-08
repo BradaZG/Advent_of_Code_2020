@@ -10,7 +10,7 @@ const findEtriesAndMultiply2 = (arr) => {
   let num2 = 0;
 
   for (let i = 0; i < arr.length - 1; i++) {
-    for (let j = i; j < arr.length; j++) {
+    for (let j = i + 1; j < arr.length; j++) {
       if (!num1) {
         if (Number(arr[i]) + Number(arr[j]) === 2020) {
           num1 = arr[i];
@@ -30,7 +30,7 @@ const findEtriesAndMultiply3 = (arr) => {
 
   for (let i = 0; i < arr.length - 2; i++) {
     for (let j = i + 1; j < arr.length - 1; j++) {
-      for (let k = j + 1; k < arr.length - 2; k++) {
+      for (let k = j + 1; k < arr.length; k++) {
         if (!num1) {
           if (Number(arr[i]) + Number(arr[j]) + Number(arr[k]) === 2020) {
             num1 = arr[i];

@@ -33,4 +33,5 @@ for (let i = 2; i < inputArr.length; i = i + 2) {
   }
 }
 
+console.log(trees2);
 console.log(trees1 * trees2 * trees3 * trees4 * trees5);
