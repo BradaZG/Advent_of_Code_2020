@@ -9,7 +9,6 @@ class Map {
   constructor(map) {
     this.map = map;
   }
-
   getPositions(x, y) {
     return this.map[y][x % this.map[0].length];
   }
